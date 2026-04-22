@@ -38,5 +38,4 @@ The system follows a **Master-Slave Architecture**:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/SunnyDFS.git](https://github.com/your-username/SunnyDFS.git)
-cd SunnyDFS
+git clone https://github.com/sunnyraghav25/DFS.AI-deduplication.system.git
