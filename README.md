@@ -39,3 +39,15 @@ The system follows a **Master-Slave Architecture**:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sunnyraghav25/DFS.AI-deduplication.system.git
+
+###2. install dependencies
+pip install flask rpyc
+ ## open the terminal and run in diffrent terminal
+python storage/Dnode1/Dnode1.py
+python storage/Dnode2/Dnode2.py
+ 
+ ## start the master server & flask UI
+python server/server.py
+python client/flask_server/app.py
+##
+Visit http://127.0.0.1:5000 in your browser.
